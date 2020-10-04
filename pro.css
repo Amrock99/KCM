@@ -1,0 +1,132 @@
+body {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFC4D1;
+}
+html{
+    background-image: linear-gradient(to right, rgb(214, 0, 0), rgb(184, 0, 153));
+    font-family: 'Montserrat', sans-serif;
+    overflow: visible;
+}
+
+p {
+    color: blue;
+    text-transform: uppercase;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 20px;
+}
+
+.container,.container-fluid {
+    height: 50vh;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    border:50px solid;
+    text-align:center;
+}
+
+.zone {
+    color: #006699;
+    font-size: 2em;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    transition: all 0.3s linear;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.box > img {
+    width: 100%
+}
+
+footer {
+    font-color: black
+}
+
+.head {
+    font-size: 50px;
+
+}
+.img-container{
+background-image: url(https://i2.wp.com/files.123freevectors.com/wp-content/original/112790-red-and-black-blurred-background-vector.jpg?w=800&q=95.jpg);
+background-size: cover;
+background-attachment: fixed;
+margin:auto;
+}
+
+.img-container > img
+{
+    border-radius: 50%;
+}
+
+#method{
+font-family: 'Montserrat', sans-serif;
+font-size: 2.1rem;
+line-height: 1.4;
+letter-spacing: 0.5rem;
+text-align: center;
+color: #0A1045;
+margin-top: 25px;
+margin-bottom: 35px; 
+}
+.maindiv{
+    width: 50%;
+    height: 650px;
+    position: center;
+    top:70%;
+    left: 50%;
+    transform: translate(+50%);
+    align-items: center;
+    justify-content: center;
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 5px black;
+    animation: slider 100s infinite linear;
+    font-family: 'Montserrat', sans-serif;   
+}
+@keyframes slider{
+    0%{background-image: url('.//images/05_edited.jpg');}
+    10%{background-image: url('.//images/06_edited.jpg');}
+    25%{background-image: url('.//images/07_edited.jpg');}
+    35%{background-image: url('.//images/08_edited.jpg');}
+    40%{background-image: url('.//images/09_edited.jpg');}
+    50%{background-image: url('.//images/10_edited.jpg');}
+    65%{background-image: url('.//images/65_edited.jpg');}
+    80%{background-image: url('.//images/88_edited.jpg');}
+    100%{background-image: url('.//images/563_edited.jpg');}
+
+}
+
+.carousel-slide,#carousel-item,{
+    justify-content: center;
+    align-items: center;
+}
+
+#hee{
+    height: 50vh;
+    width: 50%
+    background-image:url('.//images/photo_2020-10-04_00-41-54.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#hee2{
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    height: 9vh;
+    color: #040926;
+    background-color: rgba(245, 183, 0, 0.85);
+    font-size: 20px;
+}
+
+.w3-panel{
+    background-color: #B1F8F2;
+}

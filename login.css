@@ -1,0 +1,12 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+    overflow: visible;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#detail{
+	align-items: center;
+	justify-content: center;
+}
